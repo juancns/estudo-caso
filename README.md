@@ -1,25 +1,45 @@
-# 🧠 Estudo de Caso - Processo Seletivo
+# 🧠 Estudo de Caso – Processo Seletivo
 
-Este repositório contém as entregas do estudo de caso do processo seletivo, incluindo levantamento de requisitos, consultas SQL, pseudocódigo e uso de Git.
+Este repositório contém as entregas referentes ao estudo de caso proposto na etapa de Avaliação Prática do processo seletivo. O desafio simula a atuação de um analista de sistemas em um cenário de evolução de sistema.
 
----
+## 📋 Objetivo
 
-## 📌 Objetivo
+Desenvolver um conjunto de entregas técnicas baseadas em um estudo de caso fictício, incluindo:
 
-Desenvolver uma solução prática simulando situações reais da área de análise e desenvolvimento de sistemas, conforme as etapas definidas pelo processo seletivo.
+- Levantamento e especificação de requisitos
+- Criação de consultas SQL básicas em PostgreSQL
+- Lógica de programação em pseudocódigo
+- Organização e versionamento do projeto utilizando Git e GitHub
 
----
+## 🛠️ Entregas
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+- ✅ Documento de requisitos (funcionais e não funcionais)
+- ✅ Consultas SQL e estrutura do banco de dados
+- ✅ Pseudocódigo resolvendo parte da lógica proposta
+- ✅ Estrutura de diretórios organizada com versionamento Git
+- ✅ Slides da apresentação (disponível na pasta `/apresentacao`)
 
-- PostgreSQL 17
-- SQL (Consultas, DDL, DML)
-- Pseudocódigo
-- Git para versionamento
-- VS Code / DBeaver (ou outro editor)
-- Sistema Operacional: Windows 10/11
+## 📁 Estrutura do Projeto
 
----
-
-## 📂 Estrutura do Projeto
-
+```bash
+EstudoCaso/
+│
+├── requisitos/            # Documentação com levantamento e especificação de requisitos
+│   └── requisitos.md
+│
+├── sql/                   # Scripts SQL usados no estudo de caso
+│   ├── consultas.sql
+│   └── estrutura_banco.sql
+│
+├── pseudocodigo/          # Lógica de programação em pseudocódigo
+│   └── resolucao_algoritmo.txt
+│
+├── imagens/               # Diagramas ou capturas de tela (opcional)
+│   └── modelo_relacional.png
+│
+├── apresentacao/          # Slides da apresentação final à banca (opcional)
+│   └── estudo_de_caso_apresentacao.pdf
+│
+├── .gitignore             # Arquivos/pastas ignoradas pelo Git
+├── README.md              # Este documento
+└── LICENÇA                # Licença do projeto (opcional)
